@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_timetable"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/appwidget_background"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="horizontal" android:baselineAligned="false">
+
+    <LinearLayout
+        android:layout_width="0px"
+        android:layout_height="fill_parent"
+        android:layout_weight="3"
+        android:gravity="fill_horizontal"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/fajr_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="fill_vertical"
+            android:singleLine="true"
+            android:text="@string/fajr"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/sunrise_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="fill_vertical"
+            android:singleLine="true"
+            android:text="@string/sunrise"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/dhuhr_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="fill_vertical"
+            android:singleLine="true"
+            android:text="@string/dhuhr"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/asr_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="fill_vertical"
+            android:singleLine="true"
+            android:text="@string/asr"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/maghrib_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="fill_vertical"
+            android:singleLine="true"
+            android:text="@string/maghrib"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/ishaa_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="fill_vertical"
+            android:singleLine="true"
+            android:text="@string/ishaa"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/next_fajr_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="fill_vertical"
+            android:singleLine="true"
+            android:text="@string/next_fajr"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0px"
+        android:layout_height="fill_parent"
+        android:layout_weight="2"
+        android:gravity="fill_horizontal"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/fajr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="fill_vertical"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/sunrise"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="fill_vertical"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/dhuhr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="fill_vertical"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/asr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="fill_vertical"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/maghrib"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="fill_vertical"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/ishaa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="fill_vertical"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/next_fajr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="fill_vertical"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/fajr_am_pm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="fill_vertical"
+            android:maxLength="2"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/sunrise_am_pm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="fill_vertical"
+            android:maxLength="2"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/dhuhr_am_pm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="fill_vertical"
+            android:maxLength="2"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/asr_am_pm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="fill_vertical"
+            android:maxLength="2"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/maghrib_am_pm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="fill_vertical"
+            android:maxLength="2"
+            android:singleLine="true"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/ishaa_am_pm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="fill_vertical"
+            android:maxLength="2"
+            android:singleLine="true"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/next_fajr_am_pm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="fill_vertical"
+            android:maxLength="2"
+            android:singleLine="true"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/fajr_marker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="fill_vertical"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/sunrise_marker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="fill_vertical"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/dhuhr_marker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="fill_vertical"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/asr_marker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="fill_vertical"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/maghrib_marker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="fill_vertical"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/ishaa_marker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="fill_vertical"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/next_fajr_marker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="fill_vertical"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+</LinearLayout>

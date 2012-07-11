@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="calculation_methods">
+        <item>@string/turkish_religious</item>
+         <item>@string/north_america</item>
+         <item>@string/muslim_league</item>
+         <item>@string/egypt_survey</item>
+         <item>@string/karachi</item>
+        <item>@string/umm_alqurra</item>
+        <item>@string/custom_dawn_dusk</item>
+    </array>
+    <array name="time_format">  
+        <item>@string/clock_24_hour</item>
+        <item>@string/AM_PM_format</item>
+    </array>
+      <array name="asr_method">
+        <item>@string/standart</item>
+        <item>@string/hanafi</item>
+    </array>
+    <array name="rounding_types">
+        <item>@string/none</item>
+        <item>@string/normal</item>
+        <item>@string/special</item>
+        <item>@string/aggressive</item>
+        <item>@string/fullprecision</item>
+    </array>
+    <array name="notification_methods">
+        <item>@string/none</item>
+        <item>@string/sdefault</item>
+        <item>@string/beep</item>
+        <item>@string/recite</item>
+        <item>@string/custom</item>
+    </array>
+   
+    <array name="languages">
+        <item>@string/sdefault</item>
+        <item>English</item>
+        <item>Deutsch</item>
+        <item>Français</item>
+        <item>Indonesia</item>
+        <item>Italiano</item>
+        <item>Русский</item>
+        <item>Türkçe</item>
+        <item>Espanol</item>
+    </array>
+     <array name="extreme_method_for_fajr">
+        <item>@string/no_estimation</item>
+        <item>@string/nearest_lat</item>
+        <item>@string/nearest_day</item>
+        <item>@string/one_third_of_night</item>
+        <item>@string/one_third_of_day</item>
+        <item>@string/one_seventh_of_night</item>
+        <item>@string/one_seventh_of_day</item>
+        <item>@string/middle_of_night</item>
+        <item>@string/fixed_time</item>
+        </array>
+     <array name="extreme_method_for_isha">
+         <item>@string/no_estimation</item>
+        <item>@string/nearest_lat</item>
+        <item>@string/nearest_day</item>
+        <item>@string/one_third_of_night</item>
+        <item>@string/one_third_of_day</item>
+        <item>@string/one_seventh_of_night</item>
+        <item>@string/one_seventh_of_day</item>
+        <item>@string/middle_of_night</item>
+        <item>@string/fixed_time</item>
+        <item>@string/turkish_isha_method</item>
+    </array>
+</resources>

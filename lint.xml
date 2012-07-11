@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="ExportedReceiver" severity="ignore" />
+    <issue id="ExtraTranslation">
+        <ignore path="res\values-fr\strings.xml" />
+        <ignore path="res\values-in\strings.xml" />
+    </issue>
+    <issue id="FloatMath" severity="ignore" />
+    <issue id="HardcodedText" severity="ignore" />
+    <issue id="MissingTranslation" severity="ignore" />
+    <issue id="NestedWeights">
+        <ignore path="res\layout\widget_timetable.xml" />
+    </issue>
+    <issue id="TextFields" severity="ignore" />
+    <issue id="TypographyEllipsis" severity="ignore">
+        <ignore path="res\values-tr\strings.xml" />
+    </issue>
+    <issue id="UnusedResources" severity="ignore" />
+</lint>

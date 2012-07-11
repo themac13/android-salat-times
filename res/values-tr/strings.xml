@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Azan Alarmı</string>
+    <string name="description">Günlük namaz vakitlerini görüntüler ve sizi uyarabilir.</string>
+    <string name="help">Yardım</string>
+    <string name="help_text"><u>Sık Sık Sorulan Sorular</u>\n\nS: Neden namaz vakitleri yerel takvimle eşleşmiyor?\n\nC: Buna etki eden birçok faktörler vardir, örneğin, giriş parametreleri (enlem, boylam, hesaplama yöntemi, ...), algoritmik ve farklı makinelerdeki hesaplama hassaslık farklılıkları.\n\nS: Neden pusula Kıbleyi doğru yönde göstermiyor?\n\nC: Enlem ve boylam doğru ayarlanmış olduğunu onaylayın ve telefonuzu elektro-manyetik etkileşimden uzak tutun.\n\nS: Neden en sevdiğim özellik daha eklenmemiştir?\n\nC: Lütfen wwww.cepmuvakkit.com adresindeki proje web sitesini ziyaret edin ve bize programı geliştirmeye yardımcı olun.</string>
+    <string name="information">Bilgi</string>
+    <string name="information_text">Program hakkında daha fazla bilgi için:\wwww.cepmuvakkit.com\n\nİslâm hakkında daha fazla bilgi için:\nwww.iskenderpasa.com\n\nVersion: #</string>
+    <string name="today">Bugün</string>
+    <string name="fajr">İmsak</string>
+    <string name="sunrise">Güneş</string>
+    <string name="dhuhr">Öğle</string>
+    <string name="asr">İkindi</string>
+    <string name="maghrib">Akşam</string>
+    <string name="ishaa">Yatsı</string>
+    <string name="next_fajr">Sonraki İmsak</string>
+    <string name="sdefault">Varsayılan</string>
+    <string name="error_playing_alert">Uyarı çalmada yanlışlık</string>
+    <string name="location_not_set">Lütfen <u>yer</u> ayarlayın</string>
+    <string name="allahu_akbar">Allahu Akbar</string>
+    <string name="time_for"></string>
+    <string name="latitude">Enlem</string>
+    <string name="longitude">Boylam</string>
+    <string name="qibla">Kible</string>
+    <string name="compass_disclaimer">Pusula portre modunda belirtilen yere göre çalışır.</string>
+    <string name="bearing_north">1) Kuzey Yatak = (1)°</string>
+    <string name="bearing_qibla">2) Kible Yatak = (1) (+/-) (2)° = (3)°</string>
+    <string name="settings">Ayarlar</string>
+    <string name="advanced">İleri ayarlar</string>
+    <string name="notification">Duyuru</string>
+    <string name="none">Yok</string>
+    <string name="recite">Azan oku</string>
+    <string name="extra_alerts">Ek uyarılar</string>
+    <string name="daylight_savings">Aydınlık saklamaları</string>
+    <string name="lookup_gps">GPS\naraması</string>
+    <string name="system_time_zone">Sistem saati</string>
+    <string name="save">Kaydet</string>
+    <string name="reset">Sıfırla</string>
+    <string name="calculation">Hesaplama</string>
+    <string name="egypt_survey">Mısır Genel Anket Yetkilisi</string>
+    <string name="karachi_shaf">Şafiî - Karaçi İslâm Bilimleri Üniv.</string>
+    <string name="karachi_hanaf">Hanefi - Karaçi İslâm Bilimleri Üniv.</string>
+    <string name="north_america">Kuzey Amerika İslâm Topluluğu</string>
+    <string name="muslim_league">Müslüman Dünya Ligi</string>
+    <string name="umm_alqurra">Umm Al-Qurra, Suudi Arabistani</string>
+    <string name="fixed_ishaa">Sabit yatsı aralık (her zaman 90 dak)</string>
+    <string name="rounding">Yuvarlama</string>
+    <string name="normal">Normal</string>
+    <string name="special">Özel</string>
+    <string name="aggressive">Agresif</string>
+    <string name="altitude">Rakım</string>
+    <string name="pressure">Basınç</string>
+    <string name="temperature">Sıcaklık</string>
+<string name="offset"> Temkin</string>
+</resources>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="fill_vertical"
+            android:text="@string/estimationmethod_desc"
+            android:textColor="@color/background_color"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                style="@style/labelColumn"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="fill_vertical"
+                    android:text="@string/method_for_fajr"
+                    android:textColor="@color/yellow_color" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <Spinner
+                    android:id="@+id/est_method_fajr"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:drawSelectorOnTop="true" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/useEstAlwaysFajr"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/useEstAlwaysFajr"
+            android:textColor="@color/yellow_color"
+            android:textColorLink="@color/yellow_color" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                style="@style/labelColumn"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="fill_vertical"
+                    android:text="@string/method_for_isha"
+                    android:textColor="@color/redblack_color" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <Spinner
+                    android:id="@+id/est_method_isha"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:drawSelectorOnTop="true" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/useEstAlwaysIsha"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/useEstAlwaysIsha"
+            android:textColor="@color/redblack_color" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/base_latitude" />
+
+            <EditText
+                android:id="@+id/base_latitude"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number|numberSigned|numberDecimal"
+                android:text="48.5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="°"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:typeface="normal" />
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/applytoAll"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="This checkbox applies to all salat times"
+            android:text="@string/applyToAll"
+            android:textColor="@color/light_blue_color" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fixed_time"
+                android:textColor="@color/light_blue_color" />
+
+            <EditText
+                android:id="@+id/fixed_min"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number|numberSigned"
+                android:text="90" />
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="@string/minutes"
+                android:textColor="@color/light_blue_color" />
+        </LinearLayout>
+
+        <include layout="@layout/buttons_save_reset" />
+    </LinearLayout>
+
+</ScrollView>

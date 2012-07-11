@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Salat Times</string>
+    <string name="SalatTimes">Salat Times</string>
+    <string name="description">Displays and can alert you to the daily Muslim
+		prayer times.</string>
+    <string name="adhan_next_time">Salat: Next Time</string>
+    <string name="adhan_timetable">Salat: Timetable</string>
+    <string name="stop">Stop</string>
+    <string name="help">Help</string>
+    <string name="help_text"><u>Frequently Asked Questions</u>		\n\nQ: Why do the times not match my local timetable?\n\nA: There are
+		many factors that affect the schedule including the input parameters
+		(ex. latitude, longitude, calculation method, ...), algorithmic
+		differences and precision differences due to computations on different
+		machines.\n\nQ: Why does the Qibla compass not point in the right
+		direction?\n\nA: Confirm that your latitude and longitude are set
+		correctly in your settings and your phone is away from
+		electro-magnetic interference.\n</string>
+    <string name="information">Information</string>
+    <string name="information_text">For more information about the program
+		visit:\nwww.cepmuvakkit.com\n\n</string>
+    <string name="more_applications">More Applications</string>
+    <string name="today">Today</string>
+    <string name="fajr">Fajr</string>
+    <string name="sunrise">Sunrise</string>
+    <string name="dhuhr">Dhuhr</string>
+    <string name="asr">Asr</string>
+    <string name="maghrib">Maghrib</string>
+    <string name="ishaa">Isha</string>
+    
+    <string name="fajr_offset">Fajr Offset</string>
+    <string name="sunrise_offset">Sunrise Offset</string>
+    <string name="dhuhr_offset">Dhuhr Offset</string>
+    <string name="asr_offset">Asr Offset</string>
+    <string name="maghrib_offset">Maghrib Offset</string>
+    <string name="ishaa_offset">Isha Offset</string>
+    <string name="next_fajr">Next Fajr</string>
+    <string name="next_time_marker">></string>
+    <string name="next_time_marker_reverse">&lt;</string>
+    <string name="sdefault">Default</string>
+      <string name="AM_PM_format">AM/PM format</string>
+
+    <string name="error_playing_alert">Error Playing Alert</string>
+    <string name="error_playing_custom_file">Custom File Error</string>
+    <string name="location_not_set"><u>Location Not Set</u>		\n\nPlease enable the device\'s GPS or set your location manually
+		through settings.</string>
+    <string name="allahu_akbar">Allah is the Greatest</string>
+    <string name="time_for">Time for</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="qibla">Qibla</string>
+    <string name="settings">Settings</string>
+    <string name="bismillah_on_boot_up">Bismillah On Boot Up</string>
+    <string name="notification">Warning Style</string>
+    <string name="none">None</string>
+    <string name="beep">Beep</string>
+    <string name="recite">Recite</string>
+    <string name="custom">Custom Mp3 file</string>
+    <string name="file_path">File Path</string>
+    <string name="file_path_example">File Path ex. /sdcard/sound.mp3</string>
+    <string name="sinterface">User Interface</string>
+    <string name="advanced">Advanced</string>
+    <string name="extra_alerts">Extra Alerts</string>
+    <string name="daylight_savings">Daylight Savings</string>
+    <string name="lookup_gps">Gather Data</string>
+    <string name="system_time_zone">System Time Zone</string>
+    <string name="gmt">GMT</string>
+    <string name="save">Save</string>
+    <string name="reset">Reset</string>
+    <string name="calculation">Calculation Method</string>
+    <string name="calculation_desc">Different methods to calculate Fajr and Isha Prayers</string>
+    <string name="set_location">Set Location</string>
+    <string name="calculation_at_higher_lat">Calculation Methods at Higher Latitudes</string>
+      <string name="calculation_at_higher_lat_desc">Options for higher latitudes and arctic/antarctic circles 
+          prayer time calculations where no sunset or sunrise is observed</string>
+    <string name="egypt_survey">Egyptian General Authority of Survey</string>
+    <string name="karachi">Karachi University of Islamic Sciences</string>
+    <string name="turkish_religious">Turkish Religious Affairs</string>
+    <string name="karachi_shaf">Shaf`i - Karachi University of Islamic Sciences</string>
+    <string name="karachi_hanaf">Hanafi - Karachi University of Islamic Sciences</string>
+    <string name="north_america">Islamic Society of North America</string>
+    <string name="muslim_league">Muslim World League</string>
+    <string name="umm_alqurra">Umm Al-Qurra, Saudi Arabia</string>
+    <string name="custom_dawn_dusk">Calculation with Customized Dawn Dusk Angle</string>
+    <string name="fixed_ishaa">Fixed Ishaa Interval (always 90)</string>
+    <string name="time_format">Time Format</string>
+    <string name="clock_24_hour">24 Hour Clock</string>
+    <string name="altitude">Altitude</string>
+    <string name="pressure">Pressure</string>
+    <string name="temperature">Temperature   </string>
+    <string name="degrees_celsius">[°C]</string>
+    <string name="degrees">°</string>
+    <string name="hekto_Pascal">[hPA]</string>
+    <string name="meters">[m]</string>
+    <string name="rounding">Rounding</string>
+    <string name="normal">Normal</string>
+    <string name="special">Special</string>
+    <string name="aggressive">Aggressive</string>
+    <string name="offset"> Offset</string>
+    <string name="minutes">minutes</string>
+    <string name="language">Language</string>
+    <string name="theme">Theme</string>
+    <string name="brown">Brown</string>
+    <string name="dialog">Dialog</string>
+    <string name="green">Green</string>
+    <string name="light">Light</string>
+    <string name="locName">Location Name</string>
+    <string name="set_adjustments">Set Manual Adjustments</string>
+    <string name="asr_method">Juristic Asr Method</string>
+    <string name="fullprecision">Full Precision</string>
+    <string name="offsettitle">Salat Times Adjustments</string>
+    <string name="estimationmethod">Estimation Criteria at Higher Latitudes</string>
+    <string name="estimationmethod_desc">Eight Different Estimation Methods for Higher and Extreme Latitudes </string>
+    <string name="method_for_fajr">Est. Method for Fajr</string>
+    <string name="method_for_isha">Est. Method for Isha</string>
+    <string name="applyToAll">Apply estimation method to all Salat Times; otherwise only Fajr and Isha Time will be affected</string>
+    <string name="useEstAlwaysFajr"> Permanently use one of the eight Estimation methods selected above for Fajr Time; 
+        otherwise (if not Selected)	will be used in case of invalid return</string>
+    <string name="useEstAlwaysIsha">Permanently use one of the eight Estimation methods selected above for Isha time; otherwise will 
+        be used in case of invalid return</string>
+    <string name="base_latitude">Nearest Estimation Base Latitude</string>
+    <string name="standart">Standart</string>
+    <string name="hanafi">Hanafi</string>
+    <string name="no_estimation">No Estimation Method</string>
+    <string name="nearest_lat">Nearest Latitude(Aqrab Al-Bilaad)</string>
+    <string name="nearest_day">Nearest Good Day (Aqrab Al-Ayyam)</string>
+    <string name="one_third_of_night">One Third of Night</string>
+    <string name="one_third_of_day">One Third of Day</string>
+    <string name="one_seventh_of_night">One Seventh of Night</string>
+    <string name="one_seventh_of_day">One Seventh of Day</string>
+    <string name="middle_of_night">Middle of Night Time</string>
+    <string name="fixed_time">Minutes from Sunrise/Maghrib</string>
+    <string name="turkish_isha_method">Turkish Isha Estimation</string>
+    <string name="dawn_angle">Dawn(Fajr) Angle</string>
+    <string name="dusk_angle">Dusk(Isha) Angle</string>
+    <string name="early_warning">Early Warning</string>
+    <string name="widget_name">Hijri Date</string>
+    <string name="calendar">15 Ramadan 1431 </string>
+    <string name="NEWYEAR">HIJRI NEW YEAR</string>
+    <string name="ASHURA">DAY OF ASHURA</string>
+    <string name="MAWLID">MAWLID AL-NABI</string>
+    <string name="HOLYMONTHS">START OF HOLY MONTHS</string>
+    <string name="RAGHAIB">LAILATUL-RAGHAIB</string>
+    <string name="MERAC">LAILATUL-ME`RAC</string>
+    <string name="BARAAT">LAILATUL-BARAAT</string>
+    <string name="QADR">LAILATUL-QADR</string>
+    <string name="DAYOFEIDFITR">. DAY OF EID-AL-FITR</string>
+    <string name="DAYOFEIDAHDA">. DAY OF EID-AL-ADHA</string>
+    <string name="AREFE">DAY OF ARAFAT</string>
+    <string name="tonight">TONIGHT IS </string>
+    <string name="MUHARRAM">MUHARRAM</string>
+    <string name="SAFAR">SSAFAR</string>
+    <string name="REBIULAVVAL">RABI`AL-AVVAL</string>
+    <string name="REBIULAHIR">RABI`AL-AKHIR</string>
+    <string name="JAMIZIALAVVAL">JAMAZI AL-AVVAL</string>
+    <string name="JAMIZIALAHIR">JAMAZI AL-AKHIR</string>
+    <string name="RAJAB">RAJAB</string>
+    <string name="SHABAN">SHA`ABAN</string>
+    <string name="RAMADHAN">RAMADHAN</string>
+    <string name="SHAVVAL">SHAVVAL</string>
+    <string name="ZILKADE">DHU AL-QI`DAH</string>
+    <string name="ZILHICCE">DHU AL-HIJJAH</string>
+    <string name="MONDAY">MONDAY</string>
+    <string name="SUNDAY">SUNDAY</string>
+    <string name="TUESDAY">TUESDAY</string>
+    <string name="THURSDAY">THURDAY</string>
+    <string name="FRIDAY">FRIDAY</string>
+    <string name="SATURDAY">SATURDAY</string>
+    <string name="WEDNESDAY">WEDNESDAY</string>
+    <string name="cardinal_north">N</string>
+    <string name="cardinal_east">E</string>
+    <string name="cardinal_south">S</string>
+    <string name="cardinal_west">W</string>
+    <string name="moon_elongation">NewCrescent Phase angle</string>
+    <string name="prefs_elongation">moonElongation</string>
+    <string name="advanced_settings">Advanced Settings</string>
+    <string name="temperature_summary">Air Temperature in Celcius</string>
+    <string name="pressure_summary">Air Pressure of Location in hPA</string>
+    <string name="altitude_summary">Altitude values above the Sea Level in meters</string>
+    <string name="loc_info">Location Information</string>
+    <string name="prefs_temperature">prefTemperature</string>
+    <string name="lat_title">Enter Latitude Values</string>
+    <string name="lat_summary">Enter Latitude Values in Degrees</string>
+    <string name="long_title">Enter Longitude Value</string>
+    <string name="long_summary">Enter Longitude Value in Degrees</string>
+    <string name="is_manual_input">Manually Input the Position</string>
+    <string name="is_manual_input_hint">If this CheckBox is enabled, manual entries of
+		location will be used and
+		input values will be overwritten to current
+		GPS position.</string>
+    <string name="custom_city_summary">Custom City Name</string>
+    <string name="custom_city_title">City Name</string>
+    <string name="timezone_summary">Set Time Zone [-11,+13]</string>
+    <string name="timezone_title">Time Zone</string>
+
+</resources>
