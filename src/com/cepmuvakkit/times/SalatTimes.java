@@ -259,11 +259,11 @@ public class SalatTimes extends Activity {
 					.show();
 			break;
 
-		case R.id.settings:
-			intent = new Intent(getApplicationContext(),
-					SalatTimesPreferenceActivity.class);
-			startActivityForResult(intent, 2);
-			break;
+//		case R.id.settings:
+//			intent = new Intent(getApplicationContext(),
+//					SalatTimesPreferenceActivity.class);
+//			startActivityForResult(intent, 2);
+//			break;
 		}
 		return super.onOptionsItemSelected(item);
 	}

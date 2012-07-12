@@ -20,8 +20,8 @@
 				<category android:name="android.intent.category.LAUNCHER" />
 			</intent-filter>
 		</activity>
-		 <activity android:name="com.cepmuvakkit.times.SalatTimesPreferenceActivity" >
-        </activity>
+		<!--  <activity android:name="com.cepmuvakkit.times.SalatTimesPreferenceActivity" >
+        </activity> -->
 		<receiver android:name=".receiver.StartNotificationReceiver">
 			<intent-filter>
 				<action android:name="android.intent.action.BOOT_COMPLETED" />

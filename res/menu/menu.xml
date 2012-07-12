@@ -16,11 +16,11 @@
 		android:numericShortcut="1" android:title="@string/settings"
 		android:alphabeticShortcut="S">
 	</item>
-	
+<!-- 	
 		<item  android:icon="@android:drawable/ic_menu_preferences" android:id="@+id/settings"
 		android:numericShortcut="4" android:title="@string/settings"
 		android:alphabeticShortcut="S">
-	</item>
+	</item> -->
 	<item android:icon="@android:drawable/ic_menu_search" android:id="@+id/more_applications"
 		android:numericShortcut="4" android:title="@string/more_applications"
 		android:alphabeticShortcut="M">

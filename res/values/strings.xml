@@ -29,12 +29,12 @@
     <string name="maghrib">Maghrib</string>
     <string name="ishaa">Isha</string>
     
-    <string name="fajr_offset">Fajr Offset</string>
+    <string name="fajr_offset"   >Fajr    Offset</string>
     <string name="sunrise_offset">Sunrise Offset</string>
-    <string name="dhuhr_offset">Dhuhr Offset</string>
-    <string name="asr_offset">Asr Offset</string>
+    <string name="dhuhr_offset"  >Dhuhr Offset  </string>
+    <string name="asr_offset"    >Asr Offset    </string>
     <string name="maghrib_offset">Maghrib Offset</string>
-    <string name="ishaa_offset">Isha Offset</string>
+    <string name="ishaa_offset"  >Isha Offset   </string>
     <string name="next_fajr">Next Fajr</string>
     <string name="next_time_marker">></string>
     <string name="next_time_marker_reverse">&lt;</string>
