@@ -15,6 +15,7 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.AdapterView;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.Spinner;
 
 public class NotificationSettingsDialog extends Dialog {
@@ -53,12 +54,26 @@ public class NotificationSettingsDialog extends Dialog {
 				}
 			});
 		}
-
+        
+		((EditText) findViewById(R.id.ew_minutes_fajr)).setText(Integer
+				.toString(VARIABLE.settings.getInt("ewSetFajr", 0)));
+		((EditText) findViewById(R.id.ew_minutes_sunrise)).setText(Integer
+				.toString(VARIABLE.settings.getInt("ewSetSunrise", 45)));
+		((EditText) findViewById(R.id.ew_minutes_duhr)).setText(Integer
+				.toString(VARIABLE.settings.getInt("ewSetDhur", 0)));
+		((EditText) findViewById(R.id.ew_minutes_asr)).setText(Integer
+				.toString(VARIABLE.settings.getInt("ewSetAsr", 0)));
+		((EditText) findViewById(R.id.ew_minutes_maghrib)).setText(Integer
+				.toString(VARIABLE.settings.getInt("ewSetMagrib", 0)));
+		((EditText) findViewById(R.id.ew_minutes_ishaa)).setText(Integer
+				.toString(VARIABLE.settings.getInt("ewSetIsha", 0)));
+		
 		((Button)findViewById(R.id.save_settings)).setOnClickListener(new Button.OnClickListener() {
 			public void onClick(View v) {
 				for(short i = CONSTANT.FAJR; i < CONSTANT.NEXT_FAJR; i++) {
 					SharedPreferences.Editor editor = VARIABLE.settings.edit();
 					editor.putInt("notificationMethod" + i, ((Spinner)findViewById(notificationIds[i])).getSelectedItemPosition());
+							
 					editor.commit();
 				}
 				dismiss();
